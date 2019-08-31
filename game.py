@@ -1,6 +1,8 @@
 from ride_bus import *
 
+deck = Deck()
 counter = 0
+
 while counter <= 51:
 
 # Red or Black?
@@ -11,6 +13,8 @@ while counter <= 51:
   if g1 == my_card.black() or g1 == my_card.red():
     print("\tCorrect!\n")
     counter += 1
+    if counter == 51:
+        break
   else:
     print("\tTry again!\n")
     counter += 1
@@ -31,6 +35,8 @@ while counter <= 51:
     second_card.show()
     print("\tCorrect!\n")
     counter += 1
+    if counter == 51:
+        break
   else:
     second_card.show()
     print("\tTry again!\n")
@@ -55,6 +61,8 @@ while counter <= 51:
     third_card.show()
     print("\tCorrect!\n")
     counter += 1
+    if counter == 51:
+        break
   else:
     third_card.show()
     print("\tTry again!\n")
