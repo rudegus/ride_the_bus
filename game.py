@@ -1,10 +1,5 @@
 from ride_bus import *
 
-deck = Deck()
-deck.shuffle()
-my_card = deck.drawCard()
-my_card.suitz()
-
 counter = 0
 while counter <= 51:
 
@@ -17,7 +12,7 @@ while counter <= 51:
     print("\tCorrect!\n")
     counter += 1
   else:
-    print("\tTake a drink!\n")
+    print("\tTry again!\n")
     counter += 1
     if counter == 51:
         break
@@ -38,7 +33,7 @@ while counter <= 51:
     counter += 1
   else:
     second_card.show()
-    print("\tTake a Drink!\n")
+    print("\tTry again!\n")
     counter += 1
     if counter == 51:
         break
@@ -62,7 +57,7 @@ while counter <= 51:
     counter += 1
   else:
     third_card.show()
-    print("\tTake a drink!\n")
+    print("\tTry again!\n")
     counter += 1
     if counter == 51:
         break
