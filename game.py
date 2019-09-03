@@ -80,7 +80,7 @@ while counter <= 51:
     break
   else:
     fourth_card.show()
-    print("\tGet back on the bus!")
+    print("\tGet back on the bus!\n")
     counter += 1
     if counter == 51:
         break
