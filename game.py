@@ -89,5 +89,5 @@ if counter == 51:
     print("\nYou ran out of cards!")
     print("\nGame over!\n")
 else:
-    print("\nYou may exit the bus!\n")
+    print("\nCongratulations! You may exit the bus.\n")
     print("turns: " + str(counter + 1))
